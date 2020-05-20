@@ -1,6 +1,7 @@
 <script>
 	import moment from "moment";
 	import Field from "./Field.svelte";
+	import About from "./About.svelte";
 
 	const FORMAT_ISO = "YYYY-MM-DD";
 	const FORMAT_FULL = "dddd " + FORMAT_ISO;
@@ -46,6 +47,8 @@
 </svelte:head>
 
 <div class="wrapper p3 vgap2">
+
+	<About />
 
 	<h2>When is your birthday?</h2>
 
