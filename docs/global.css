@@ -1,58 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;900&display=swap');
 
 html, body {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #efefef;
-	color: #222;
-	font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  color: #222;
+  font-family: 'Work Sans', sans-serif;
 }
 
 input, select, option, .input {
-	padding: 6px;
-	border: 1px solid #c3d8ff;
-	background-color: #fff;
-	color: #222;
-	font: 1rem 'Work Sans', sans-serif;
+  padding: 6px;
+  border: 1px solid #c3d8ff;
+  background-color: #fff;
+  color: #222;
+  font: 1rem 'Work Sans', sans-serif;
 }
 
 div, input, p {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 p, h1, h2, h3, h4, h5 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Atoms */
 
 .wrapper {
-	margin: 0 auto;
-	max-width: 600px;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .hor {
-	display: flex;
+  display: flex;
 }
 
 .ver {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrap {
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .swell {
-	flex: 1;
-	/* Override default input min-width */
-	min-width: 0;
+  flex: 1;
+  /* Override default input min-width */
+  min-width: 0;
 }
 
 .small {font-size: .8rem}
